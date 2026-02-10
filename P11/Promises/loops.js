@@ -6,4 +6,4 @@ let arr = [1,2,3,4,5]
 let mappedArray = arr.map((number) => {
     return number*3
 })
-console.log(mappedArray)
+// console.log(mappedArray)

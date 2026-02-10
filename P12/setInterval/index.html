@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text and Buttons</title>
+  <style>
+    body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  max-width: 500px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background: #4338ca;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Timer</h2>
+    <p id="time">
+      0 seconds
+    </p>
+
+    <div class="button-group">
+      <button id="start" class="btn">Start</button>
+      <button id="stop" class="btn">Stop</button>
+      <button id="reset" class="btn">Reset</button>
+    </div>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
