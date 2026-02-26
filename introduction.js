@@ -159,3 +159,21 @@
 // Why dealing with server we prefer async over sync?
 
 // node package manager
+
+// Versioning
+// 22.11.01 -- xx.yy.zz
+// xx - Major update
+// yy - Minor update
+// zz - Patch update
+
+// ^22.11.01 : 22.11.11 -- 22.12.11 --- (23.11.01)
+// ~22.11.01 : 22.11.11 -- (22.12.11) --- (23.11.01)
+// 22.11.01
+
+
+// Status Code : 
+// 1xx -- Informational Codes
+// 2xx -- Success Codes
+// 3xx -- Redirectional Codes
+// 4xx -- Client-side Error Codes
+// 5xx -- Server-side Error Codes
